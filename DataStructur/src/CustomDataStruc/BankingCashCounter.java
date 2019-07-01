@@ -49,7 +49,7 @@ public class BankingCashCounter {
 			System.out.print("Enter amount to withdraw: ");
 			money = scanner.nextInt() * -1;
 			people.enqueue(money);
-			balance += money;
+			balance = balance +money;
 			System.out.println();
 			break;
 		case 3:
